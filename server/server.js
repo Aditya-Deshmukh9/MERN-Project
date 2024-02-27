@@ -25,7 +25,7 @@ app.use("/api/form", contactRoute);
 app.use("/api/data", serviceRoute);
 
 // admin Route
-app.use("/api/admin", adminRoute)
+app.use("/api/admin", adminRoute);
 
 app.use(errormiddleware);
 
